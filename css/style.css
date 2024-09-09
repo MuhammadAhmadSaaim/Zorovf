@@ -12,6 +12,7 @@
 /* Main Colors */
 :root {
   --torquoise: #30d3c7;
+  --torquoise-mild: #70c2bc;
   --accent:#df303d;
   --feroze: #47757b;
   --blue: #007bff;
@@ -36,6 +37,7 @@
   --light: #f8f9fa;
   --dark: #343a40;
   --ereiBlack: #181818;
+  --justblack: #1c1c1c;
 }
 
 /*--------------------------------------------------------------
