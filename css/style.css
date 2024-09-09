@@ -49,7 +49,7 @@ body {
 }
 
 a {
-  color: #007bff;
+  color: #007BFD;
   transition: 0.5s;
 }
 
@@ -229,8 +229,7 @@ h6 {
 }
 
 #intro .intro-info h2 span {
-  color: #74b5fc;
-  text-decoration: underline;
+  color: var(--ereiBlack);
 }
 
 #intro .intro-info .btn-get-started,
@@ -248,9 +247,9 @@ h6 {
 }
 
 #intro .intro-info .btn-get-started {
-  background: #007bff;
-  border: 2px solid #007bff;
-  color: #fff;
+  background: var(--ereiBlack);
+  border: 2px solid var(--ereiBlack);
+  color: var(--white);
 }
 
 #intro .intro-info .btn-get-started:hover {
@@ -264,8 +263,8 @@ h6 {
 }
 
 #intro .intro-info .btn-services:hover {
-  background: #007bff;
-  border-color: #007bff;
+  background: var(--ereiBlack);
+  border-color: var(--ereiBlack);
   color: #fff;
 }
 
@@ -296,7 +295,7 @@ h6 {
 .main-nav a {
   display: block;
   position: relative;
-  color: #004289;
+  color: var(--ereiBlack);
   padding: 10px 15px;
   transition: 0.3s;
   font-size: 14px;
@@ -307,7 +306,7 @@ h6 {
 .main-nav a:hover,
 .main-nav .active > a,
 .main-nav li:hover > a {
-  color: #007bff;
+  color: var(--torquoise);
   text-decoration: none;
 }
 
@@ -320,7 +319,7 @@ h6 {
   opacity: 0;
   visibility: hidden;
   padding: 10px 0;
-  background: #fff;
+  background: var(--white);
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
   transition: ease all 0.3s;
 }
@@ -339,13 +338,13 @@ h6 {
 .main-nav .drop-down ul a {
   padding: 10px 20px;
   font-size: 13px;
-  color: #004289;
+  color: var(--ereiBlack);
 }
 
 .main-nav .drop-down ul a:hover,
 .main-nav .drop-down ul .active > a,
 .main-nav .drop-down ul li:hover > a {
-  color: #007bff;
+  color: var(--torquoise);
 }
 
 .main-nav .drop-down > a:after {
@@ -386,7 +385,7 @@ h6 {
   left: -260px;
   width: 260px;
   padding-top: 18px;
-  background: rgba(19, 39, 57, 0.8);
+  background: var(--feroze);
   transition: 0.4s;
 }
 
@@ -407,7 +406,7 @@ h6 {
 .mobile-nav a:hover,
 .mobile-nav .active > a,
 .mobile-nav li:hover > a {
-  color: #74b5fc;
+  color: var(--torquoise);
   text-decoration: none;
 }
 
@@ -453,7 +452,7 @@ h6 {
 
 .mobile-nav-toggle i {
   margin: 18px 18px 0 0;
-  color: #004289;
+  color: var(--ereiBlack);
 }
 
 .mobile-nav-overly {
