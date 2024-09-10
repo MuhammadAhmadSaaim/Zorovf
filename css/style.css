@@ -682,8 +682,8 @@ h6 {
 }
 
 #why-us .card:hover {
-  background: var(--torquoise-mild);
-  border-color: var(--torquoise-mild);
+  background: var(--feroze);
+  border-color: var(--feroze);
 }
 
 #why-us .card i {
@@ -833,13 +833,13 @@ h6 {
 }
 
 #portfolio .portfolio-item .portfolio-wrap .portfolio-info h4 a:hover {
-  color: #007bff;
+  color: var(--feroze);
 }
 
 #portfolio .portfolio-item .portfolio-wrap .portfolio-info p {
   padding: 0;
   margin: 0;
-  color: #e2effe;
+  color: var(--white);
   font-weight: 500;
   font-size: 14px;
   text-transform: uppercase;
@@ -852,7 +852,7 @@ h6 {
   text-align: center;
   width: 36px;
   height: 36px;
-  background: #007bff;
+  background: var(--feroze);
   border-radius: 50%;
   margin: 10px 4px 0 4px;
 }
@@ -866,7 +866,7 @@ h6 {
 
 #portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-preview:hover,
 #portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-details:hover {
-  background: #3395ff;
+  background: var(--feroze);
 }
 
 #portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-preview:hover i,
@@ -875,7 +875,7 @@ h6 {
 }
 
 #portfolio .portfolio-item .portfolio-wrap:hover {
-  background: #003166;
+  background: var(--ereiBlack);;
 }
 
 #portfolio .portfolio-item .portfolio-wrap:hover .portfolio-info {
@@ -887,6 +887,7 @@ h6 {
 
 #testimonials {
   padding: 60px 0;
+  background: var(--ereiBlack);
   box-shadow: inset 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
 }
 
@@ -905,13 +906,13 @@ h6 {
   font-size: 20px;
   font-weight: bold;
   margin: 10px 0 5px 0;
-  color: #111;
+  color: var(--white);
   margin-left: 140px;
 }
 
 #testimonials .testimonial-item h4 {
   font-size: 14px;
-  color: #999;
+  color: var(--feroze);
   margin: 0 0 15px 0;
   margin-left: 140px;
 }
@@ -919,6 +920,7 @@ h6 {
 #testimonials .testimonial-item p {
   font-style: italic;
   margin: 0 0 15px 140px;
+  color: var(--lightgray);
 }
 
 #testimonials .owl-nav,
@@ -933,18 +935,18 @@ h6 {
   width: 12px;
   height: 12px;
   border-radius: 50%;
-  background-color: #ddd;
+  background-color: var(--white);
 }
 
 #testimonials .owl-dot.active {
-  background-color: #007bff;
+  background-color: var(--feroze);
 }
 
 /* Team Section
 --------------------------------*/
 
 #team {
-  background: var(--white);
+  background: var(--ereiBlack);
   padding: 60px 0;
   box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
 }
@@ -985,8 +987,8 @@ h6 {
 }
 
 #team .member:hover .member-info {
-  background: rgba(0, 62, 128, 0.7);
-  opacity: 1;
+  background: var(--ereiBlack);
+  opacity: .7;
   transition: 0.4s;
 }
 
@@ -1019,7 +1021,7 @@ h6 {
 }
 
 #team .member .social a:hover {
-  color: #007bff;
+  color: var(--feroze);
 }
 
 #team .member .social i {
@@ -1036,8 +1038,8 @@ h6 {
 }
 
 #clients .clients-wrap {
-  border-top: 1px solid #d6eaff;
-  border-left: 1px solid #d6eaff;
+  border-top: 1px solid var(--lightgray);
+  border-left: 1px solid var(--lightgray);
   margin-bottom: 30px;
 }
 
@@ -1055,8 +1057,8 @@ h6 {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  border-right: 1px solid #d6eaff;
-  border-bottom: 1px solid #d6eaff;
+  border-right: 1px solid var(--lightgray);
+  border-bottom: 1px solid var(--lightgray);
   overflow: hidden;
   background: var(--white);
   height: 160px;
@@ -1093,14 +1095,14 @@ h6 {
   font-weight: 300;
   letter-spacing: 3px;
   text-transform: uppercase;
-  color: #007bff;
+  color: var(--torquoise-mild);
 }
 
 #contact .contact-about p {
   font-size: 14px;
   line-height: 24px;
   font-family: "Montserrat", sans-serif;
-  color: #888;
+  color: var(--ereiBlack);
 }
 
 #contact .social-links {
@@ -1111,7 +1113,7 @@ h6 {
   font-size: 18px;
   display: inline-block;
   background: var(--white);
-  color: #007bff;
+  color: var(--ereiBlack);
   line-height: 1;
   padding: 8px 0;
   margin-right: 4px;
@@ -1120,21 +1122,21 @@ h6 {
   width: 36px;
   height: 36px;
   transition: 0.3s;
-  border: 1px solid #007bff;
+  border: 1px solid var(--ereiBlack);
 }
 
 #contact .social-links a:hover {
-  background: #007bff;
+  background: var(--ereiBlack);
   color: var(--white);
 }
 
 #contact .info {
-  color: #283d50;
+  color: var(--ereiBlack);
 }
 
 #contact .info i {
   font-size: 32px;
-  color: #007bff;
+  color: var(--ereiBlack);
   float: left;
   line-height: 1;
 }
@@ -1146,8 +1148,8 @@ h6 {
 }
 
 #contact .form #sendmessage {
-  color: #007bff;
-  border: 1px solid #007bff;
+  color: var(--ereiBlack);
+  border: 1px solid var(--ereiBlack);
   display: none;
   text-align: center;
   padding: 15px;
@@ -1156,9 +1158,9 @@ h6 {
 }
 
 #contact .form #errormessage {
-  color: red;
+  color:var(--accent);
   display: none;
-  border: 1px solid red;
+  border: 1px solid var(--accent);
   text-align: center;
   padding: 15px;
   font-weight: 600;
@@ -1172,7 +1174,7 @@ h6 {
 }
 
 #contact .form .validation {
-  color: red;
+  color: var(--accent);
   display: none;
   margin: 0 0 20px;
   font-weight: 400;
@@ -1187,7 +1189,7 @@ h6 {
 }
 
 #contact .form button[type="submit"] {
-  background: #007bff;
+  background: var(--ereiBlack);
   border: 0;
   border-radius: 20px;
   padding: 8px 30px;
@@ -1196,7 +1198,8 @@ h6 {
 }
 
 #contact .form button[type="submit"]:hover {
-  background: #0067d5;
+  background: var(--ereiBlack);
+  opacity: .8;
   cursor: pointer;
 }
 
@@ -1205,14 +1208,14 @@ h6 {
 --------------------------------------------------------------*/
 
 #footer {
-  background: #00428a;
+  background: var(--ereiBlack);
   padding: 0 0 30px 0;
   color: #eee;
   font-size: 14px;
 }
 
 #footer .footer-top {
-  background: #004a99;
+  background: var(--ereiBlack);
   padding: 60px 0 30px 0;
 }
 
@@ -1243,7 +1246,7 @@ h6 {
 #footer .footer-top .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #007bff;
+  background: var(--feroze);
   color: var(--white);
   line-height: 1;
   padding: 8px 0;
@@ -1256,8 +1259,8 @@ h6 {
 }
 
 #footer .footer-top .social-links a:hover {
-  background: #0067d5;
-  color: var(--white);
+  background: var(--white);
+  color: var(--ereiBlack);
 }
 
 #footer .footer-top h4 {
@@ -1288,11 +1291,11 @@ h6 {
 }
 
 #footer .footer-top .footer-links ul a {
-  color: #ecf5ff;
+  color: var(--white);
 }
 
 #footer .footer-top .footer-links ul a:hover {
-  color: #74b5fc;
+  color:var(--white);
 }
 
 #footer .footer-top .footer-contact {
@@ -1314,7 +1317,7 @@ h6 {
 }
 
 #footer .footer-top .footer-newsletter input[type="submit"] {
-  background: #007bff;
+  background: var(--feroze);
   border: 0;
   width: 35%;
   padding: 6px 0;
@@ -1325,7 +1328,8 @@ h6 {
 }
 
 #footer .footer-top .footer-newsletter input[type="submit"]:hover {
-  background: #0062cc;
+  background: var(--feroze);
+  opacity: .8;
 }
 
 #footer .copyright {
@@ -1336,15 +1340,15 @@ h6 {
 #footer .credits {
   text-align: center;
   font-size: 13px;
-  color: #f1f7ff;
+  color: var(--white);
 }
 
 #footer .credits a {
-  color: #bfddfe;
+  color: var(--feroze);
 }
 
 #footer .credits a:hover {
-  color: #f1f7ff;
+  color: var(--lightgray);
 }
 
 /*--------------------------------------------------------------
