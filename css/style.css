@@ -70,8 +70,9 @@ h6 {
 .back-to-top {
   position: fixed;
   display: none;
-  background: var(--ereiBlack);
-  color: var(--white);
+  background: var(--feroze);
+  color: var(
+  --white);
   width: 44px;
   height: 44px;
   text-align: center;
@@ -608,6 +609,7 @@ h6 {
 #services {
   padding: 60px 0 40px 0;
   box-shadow: inset 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
+  background: var(--lightblack);
 }
 
 #services .box {
@@ -618,8 +620,9 @@ h6 {
   border-radius: 10px;
   margin: 0 10px 40px 10px;
   background: var(--ereiBlack);
-  box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
+  box-shadow: 0 10px 29px 0 rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease-in-out;
+  min-height: 200px;
 }
 
 #services .box:hover {
